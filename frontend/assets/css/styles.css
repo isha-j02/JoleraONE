@@ -1,16 +1,166 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #f8f9fa;
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.kpi-cards {
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+  height: 100vh;
+}
+
+/* Layout structure */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 180px;
+  background-color: #285de1;
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .logo img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.sidebar .nav ul {
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+.sidebar .nav ul li {
+  width: 100%;
+}
+
+.sidebar .nav ul li a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.2s;
+}
+
+.sidebar .nav ul li a:hover,
+.sidebar .nav ul li a.active {
+  background-color: #1e4ab8;
+}
+
+/* Main content area */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar */
+.topbar {
+  background-color: white;
+  padding: 16px 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Main content area */
+.content {
+  padding: 24px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Metrics Section */
+.metrics-grid {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
-.kpi-card {
-  background: white;
-  padding: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  width: 200px;
+
+.metric {
+  flex: 1;
+  min-width: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.metric h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.metric small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.metric.blue { background-color: #3366ff; }
+.metric.purple { background-color: #8e44ad; }
+.metric.yellow { background-color: #f1c40f; color: #222; }
+.metric.red { background-color: #e74c3c; }
+
+/* Chart container */
+.chart-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-top: 10px;
+}
+
+/* Add these to your existing styles.css */
+
+.metric.green {
+  background-color: #10b981;
+}
+
+/* Progress Bar */
+.progress-container {
+  margin-top: 30px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #10b981;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+  color: #777;
+  background: #f8f9fc;
+  border-top: 1px solid #e0e0e0;
 }

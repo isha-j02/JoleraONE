@@ -1,12 +1,12 @@
 fetch("mock-data.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    // Update KPI cards
+    // Update KPI values
     document.querySelector(".kpi-card:nth-child(1) p").textContent = data.uptime;
     document.querySelector(".kpi-card:nth-child(2) p").textContent = data.ticketsToday;
 
-    // Chart using tickets data (you can adjust values or make dynamic)
-    const ctx = document.getElementById('ticketChart').getContext('2d');
+    // Chart setup
+    const ctx = document.getElementById("ticketChart").getContext("2d");
     new Chart(ctx, {
       type: 'bar',
       data: {
@@ -19,6 +19,7 @@ fetch("mock-data.json")
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           title: {
             display: true,
@@ -28,14 +29,13 @@ fetch("mock-data.json")
       }
     });
 
-    // Optional: Display alerts
+    // Display alerts in a container
+    const alertContainer = document.getElementById("alertContainer");
     data.alerts.forEach(alert => {
-      const alertDiv = document.createElement('div');
-      alertDiv.textContent = `${alert.type} - ${alert.status}`;
-      alertDiv.style.padding = "8px";
-      alertDiv.style.backgroundColor = alert.status === "Active" ? "#f8d7da" : "#d4edda";
-      alertDiv.style.marginTop = "5px";
-      document.body.appendChild(alertDiv);
+      const div = document.createElement("div");
+      div.textContent = `${alert.type} - ${alert.status}`;
+      div.classList.add("alert");
+      div.classList.add(alert.status === "Active" ? "alert-red" : "alert-green");
+      alertContainer.appendChild(div);
     });
-  })
-  .catch(error => console.error("Error loading mock data:", error));
+  });
