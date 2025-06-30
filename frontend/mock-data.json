@@ -1,0 +1,8 @@
+{
+  "uptime": "99.98%",
+  "ticketsToday": 12,
+  "alerts": [
+    { "type": "High CPU", "status": "Active" },
+    { "type": "Low Disk", "status": "Resolved" }
+  ]
+}
