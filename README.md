@@ -1,7 +1,7 @@
 # 📊 JoleraONE — Customer Portal Dashboard (Proof of Concept)
 JoleraONE is a modern and interactive customer portal dashboard designed as a Proof of Concept for Jolera Inc. It allows clients to view and track real-time and historical IT system performance across key services such as:
 
-🔄 Backup statuses and growth trends 
+🔄 Backup statuses and growth trends  
 🎫 Helpdesk ticket metrics and resolution times  
 🔐 Security alerts and performance scores  
 📈 System KPIs and customer satisfaction 
@@ -9,7 +9,7 @@ JoleraONE is a modern and interactive customer portal dashboard designed as a Pr
 👨‍💻 My Role -
 As the Web developer, I am responsible for:
 
-=> Translating business requirements into usable UI components 
+=> Translating business requirements into usable UI components  
 => Building reusable layouts (sidebar, topbar, metric cards)  
 => Creating KPI dashboards with Chart.js 
 => Implementing frontend interactivity and navigation logic 
