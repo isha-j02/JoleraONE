@@ -29,9 +29,9 @@ Data: JSON (mock data), SQL Server (future integration)
 
 ### ⏱️ Project Timesheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
 
-🧪 Features In Development 
-=> Modular views for each service (Helpdesk, Backup, Security, etc.) 
-=> Reusable sidebar, topbar, and footer layout  
+## 🧪 Features In Development  
+=> Modular views for each service (Helpdesk, Backup, Security, etc.)  
+=> Reusable sidebar, topbar, and footer layout 
 => KPI widgets, charts, and status indicators  
 => Authentication (Login/Logout)  
 => Responsive design (desktop-first, tablet/mobile planned) 
