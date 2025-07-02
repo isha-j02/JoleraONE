@@ -4,4 +4,4 @@ JoleraONe is a Customer Portal Dashboard for clients to view real-time and histo
 
 ## Milestone list doc : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
 
-## JolerONE TimeSheet : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
+## JolerONE TimeSheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
