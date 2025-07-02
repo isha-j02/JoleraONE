@@ -23,11 +23,11 @@ Data: JSON (mock data), SQL Server (future integration)
 
 ## 📆 Project Timeline & Tools
 
-### 📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
+📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
 
-### ✅ Daily Milestone Tracker : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
+✅ Daily Milestone Tracker : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
 
-### ⏱️ Project Timesheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
+⏱️ Project Timesheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
 
 ## 🧪 Features In Development  
 => Modular views for each service (Helpdesk, Backup, Security, etc.)  
