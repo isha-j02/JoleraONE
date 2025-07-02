@@ -2,8 +2,8 @@
 
 JoleraONe is a Customer Portal Dashboard for clients to view real-time and historical performance metrics of their IT systems like backups, helpdesk support, firewalls, etc.
 
-## Milestone Document  : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
+## Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
 
-## Daily - Milestone list doc : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
+## Daily_Milestone list Checker : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
 
-## JolerONE TimeSheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
+## JolerONE  Project TimeSheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
