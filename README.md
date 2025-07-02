@@ -31,8 +31,8 @@ Data: JSON (mock data), SQL Server (future integration)
 
 ## 🧪 Features In Development  
 => Modular views for each service (Helpdesk, Backup, Security, etc.)  
-=> Reusable sidebar, topbar, and footer layout 
-=> KPI widgets, charts, and status indicators  
+=> Reusable sidebar, topbar, and footer layout  
+=> KPI widgets, charts, and status indicators   
 => Authentication (Login/Logout)  
 => Responsive design (desktop-first, tablet/mobile planned) 
 
