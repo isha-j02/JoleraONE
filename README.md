@@ -16,7 +16,7 @@ As the Web developer, I am responsible for:
 => Coordinating with my supervisor for milestone reviews and feedback  
 => Documenting usability and technical details  
 
-🧰 Tech Stack 
+🧰 Tech Stack  
 Frontend: HTML, CSS, JavaScript, Chart.js  
 Backend: .NET (Planned for dynamic data APIs)  
 Data: JSON (mock data), SQL Server (future integration) 
@@ -29,7 +29,7 @@ Data: JSON (mock data), SQL Server (future integration)
 
 ### ⏱️ Project Timesheet : https://jolera365-my.sharepoint.com/:x:/g/personal/isha_shah_jolera_com/EQLjn6CjxAtJm9g99vBWQmcBY1Ydqw8yRBJgzNkDkcLYdQ?e=jLOQVt
 
-🧪 Features In Development
+🧪 Features In Development 
 => Modular views for each service (Helpdesk, Backup, Security, etc.) 
 => Reusable sidebar, topbar, and footer layout 
 => KPI widgets, charts, and status indicators 
