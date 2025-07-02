@@ -10,7 +10,7 @@ JoleraONE is a modern and interactive customer portal dashboard designed as a Pr
 As the Web developer, I am responsible for:
 
 => Translating business requirements into usable UI components 
-=> Building reusable layouts (sidebar, topbar, metric cards) 
+=> Building reusable layouts (sidebar, topbar, metric cards)  
 => Creating KPI dashboards with Chart.js 
 => Implementing frontend interactivity and navigation logic 
 => Coordinating with my supervisor for milestone reviews and feedback 
