@@ -37,8 +37,8 @@ Data: JSON (mock data), SQL Server (future integration)
 => Responsive design (desktop-first, tablet/mobile planned) 
 
 ## 📍 Status 
-✅ UI Prototyping & Section Builds in Progress 
+✅ UI Prototyping & Section Builds in Progress  
 🛠️ API integration and testing to follow 
-📄 Final usability documentation to be submitted on completion 
+📄 Final usability documentation to be submitted on completion  
 
 
