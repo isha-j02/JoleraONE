@@ -16,9 +16,9 @@ As the Web developer, I am responsible for:
 => Coordinating with my supervisor for milestone reviews and feedback  
 => Documenting usability and technical details  
 
-🧰 Tech Stack
+🧰 Tech Stack 
 Frontend: HTML, CSS, JavaScript, Chart.js  
-Backend: .NET (Planned for dynamic data APIs) 
+Backend: .NET (Planned for dynamic data APIs)  
 Data: JSON (mock data), SQL Server (future integration) 
 
 📆 Project Timeline & Tools
