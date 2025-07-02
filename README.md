@@ -11,10 +11,10 @@ As the Web developer, I am responsible for:
 
 => Translating business requirements into usable UI components  
 => Building reusable layouts (sidebar, topbar, metric cards)  
-=> Creating KPI dashboards with Chart.js 
-=> Implementing frontend interactivity and navigation logic 
-=> Coordinating with my supervisor for milestone reviews and feedback 
-=> Documenting usability and technical details 
+=> Creating KPI dashboards with Chart.js  
+=> Implementing frontend interactivity and navigation logic  
+=> Coordinating with my supervisor for milestone reviews and feedback  
+=> Documenting usability and technical details  
 
 🧰 Tech Stack
 Frontend: HTML, CSS, JavaScript, Chart.js
