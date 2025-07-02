@@ -21,7 +21,9 @@ Frontend: HTML, CSS, JavaScript, Chart.js
 Backend: .NET (Planned for dynamic data APIs)  
 Data: JSON (mock data), SQL Server (future integration) 
 
-## 📆 Project Timeline & Tools
+## 📆 Project Timeline & Tools 
+
+🎨 Figma Wireframes : https://www.figma.com/design/sMqy5IHP4yJkYRhgFPIoes/JolerONE?node-id=0-1&t=T7yOPFP40JWyXhDp-1 
 
 📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
 
