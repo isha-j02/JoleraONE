@@ -25,7 +25,7 @@ Data: JSON (mock data), SQL Server (future integration)
 
 🎨 Figma Wireframes : https://www.figma.com/design/sMqy5IHP4yJkYRhgFPIoes/JolerONE?node-id=0-1&t=T7yOPFP40JWyXhDp-1 
 
-📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/ETZGQOg2X1RPlcU7Vn7PLn4BK9Jhqr7_tFzCEdY6jaU0Ew?e=t5m5e5
+📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/EUlEiUgx8OtJubPE8Ajhu6MBu1IPIk0t3iSOakCtk8Yvdg?e=0JAJO6
 
 ✅ Daily Milestone Tracker : https://docs.google.com/spreadsheets/d/1QYDtC-KtjGM6_-FqehA2ZcJp9qgy6kpTlmOs8lVAabI/edit?usp=sharing
 
