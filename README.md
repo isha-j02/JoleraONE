@@ -23,7 +23,7 @@ Data: JSON (mock data), SQL Server (future integration)
 
 ## 📆 Project Timeline & Tools 
 
-🎨 Figma Wireframes : https://www.figma.com/design/sMqy5IHP4yJkYRhgFPIoes/JolerONE?node-id=0-1&t=T7yOPFP40JWyXhDp-1 
+🎨 Figma Wireframes : https://www.figma.com/design/sMqy5IHP4yJkYRhgFPIoes/JolerONE?node-id=0-1&t=UMCdbYIitUaz1uD3-1
 
 📄 Milestone Document : https://jolera365-my.sharepoint.com/:w:/g/personal/isha_shah_jolera_com/EUlEiUgx8OtJubPE8Ajhu6MBu1IPIk0t3iSOakCtk8Yvdg?e=0JAJO6
 
