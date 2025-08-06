@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JoleraONE Dashboard</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="assets/img/Jolera-logo-white.png" alt="Jolera Logo" />
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" class="active">Dashboard</a></li>
+          <li><a href="helpdesk.html">Helpdesk</a></li>
+          <li><a href="#">Backup</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#" id="logoutLink">Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <div class="main">
+      <!-- Topbar -->
+      <header class="topbar">
+        <h2>Welcome, Admin 👋</h2>
+      </header>
+
+      <!-- Page Content -->
+      <main class="content">
+        <!-- Section: Customer Overview -->
+        <section>
+          <h3>Customer Overview</h3>
+          <div class="metrics-grid">
+            <div class="metric blue">
+              <p>Uptime</p>
+              <h2>99.98%</h2>
+              <small>↑ 0.02%</small>
+            </div>
+            <div class="metric purple">
+              <p>Open Tickets</p>
+              <h2>23</h2>
+              <small>↑ 12%</small>
+            </div>
+            <div class="metric yellow">
+              <p>Avg. Resolution Time</p>
+              <h2>2.3 hrs</h2>
+              <small>↓ 8%</small>
+            </div>
+            <div class="metric red">
+              <p>Security Score</p>
+              <h2>88%</h2>
+              <small>↑ 5%</small>
+            </div>
+          </div>
+
+          <!-- Chart -->
+          <div class="chart-container">
+            <canvas id="ticketsChart"></canvas>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 JoleraONE — All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Logout
+    document.getElementById('logoutLink').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'login.html';
+    });
+
+    // Chart.js
+    const ctx = document.getElementById('ticketsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+        datasets: [{
+          label: 'Open Tickets',
+          data: [5, 7, 6, 9, 4, 3, 5],
+          backgroundColor: '#3366ff',
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top'
+          },
+          title: {
+            display: true,
+            text: 'Open Tickets — Last 7 Days'
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

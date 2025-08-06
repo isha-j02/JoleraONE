@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Helpdesk - JoleraONE</title>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="assets/img/Jolera-logo-white.png" alt="Jolera Logo" />
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="helpdesk.html" class="active">Helpdesk</a></li>
+          <li><a href="#">Backup</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#" id="logoutLink">Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <div class="main">
+      <!-- Topbar -->
+      <header class="topbar">
+        <h2>Helpdesk Support</h2>
+      </header>
+
+      <!-- Page Content -->
+      <main class="content">
+        <section>
+          <div class="metrics-grid">
+            <div class="metric blue">
+              <p>Open Tickets</p>
+              <h2>18</h2>
+              <small>↑ 9%</small>
+            </div>
+            <div class="metric green">
+              <p>Closed Tickets</p>
+              <h2>65</h2>
+              <small>↑ 15%</small>
+            </div>
+            <div class="metric purple">
+              <p>Avg. Resolution Time</p>
+              <h2>3.1 hrs</h2>
+              <small>↓ 4%</small>
+            </div>
+          </div>
+
+          <!-- Satisfaction Progress -->
+          <div class="progress-container">
+            <p>Customer Satisfaction</p>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 87%;">87%</div>
+            </div>
+          </div>
+
+          <!-- Chart -->
+          <div class="chart-container">
+            <canvas id="helpdeskChart"></canvas>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 JoleraONE — All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("logoutLink").addEventListener("click", function(e) {
+      e.preventDefault();
+      window.location.href = "login.html";
+    });
+
+    const ctx = document.getElementById('helpdeskChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+        datasets: [
+          {
+            label: 'Opened',
+            data: [5, 7, 4, 6, 3],
+            backgroundColor: '#3b82f6'
+          },
+          {
+            label: 'Closed',
+            data: [6, 9, 5, 7, 4],
+            backgroundColor: '#10b981'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Ticket Trends – This Week'
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
