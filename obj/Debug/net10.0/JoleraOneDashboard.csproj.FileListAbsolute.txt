@@ -1,12 +1,9 @@
+C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.exe
+C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.dll
 C:\JoleraONEDashboard\bin\Debug\net10.0\appsettings.Development.json
 C:\JoleraONEDashboard\bin\Debug\net10.0\appsettings.json
 C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.staticwebassets.runtime.json
 C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.staticwebassets.endpoints.json
-C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.exe
-C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.deps.json
-C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.runtimeconfig.json
-C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.dll
-C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.pdb
 C:\JoleraONEDashboard\obj\Debug\net10.0\rpswa.dswa.cache.json
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.GeneratedMSBuildEditorConfig.editorconfig
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.AssemblyInfoInputs.cache
@@ -15,6 +12,7 @@ C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.csproj.CoreCompileInp
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.MvcApplicationPartsAssemblyInfo.cache
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.RazorAssemblyInfo.cache
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.RazorAssemblyInfo.cs
+C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.sourcelink.json
 C:\JoleraONEDashboard\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\JoleraONEDashboard\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\JoleraONEDashboard\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -22,11 +20,11 @@ C:\JoleraONEDashboard\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz
 C:\JoleraONEDashboard\obj\Debug\net10.0\scopedcss\bundle\JoleraOneDashboard.styles.css
 C:\JoleraONEDashboard\obj\Debug\net10.0\scopedcss\projectbundle\JoleraOneDashboard.bundle.scp.css
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\50kq7zhuzg-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\mrbf92dsjt-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\mrbf92dsjt-{0}-q39bt4wapi-q39bt4wapi.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\fveora4178-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\fj6z9xw9ai-{0}-5ipweew5fc-5ipweew5fc.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\srx9i05ky1-{0}-5ipweew5fc-5ipweew5fc.gz
-C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\xxgmtr5m4t-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\xxgmtr5m4t-{0}-er6tuf85a0-er6tuf85a0.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\8weksfl7qe-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\znaaxqvrno-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\JoleraONEDashboard\obj\Debug\net10.0\compressed\tvik0kh5zj-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -97,5 +95,8 @@ C:\JoleraONEDashboard\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.dll
 C:\JoleraONEDashboard\obj\Debug\net10.0\refint\JoleraOneDashboard.dll
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.pdb
+C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.deps.json
+C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.runtimeconfig.json
+C:\JoleraONEDashboard\bin\Debug\net10.0\JoleraOneDashboard.pdb
 C:\JoleraONEDashboard\obj\Debug\net10.0\JoleraOneDashboard.genruntimeconfig.cache
 C:\JoleraONEDashboard\obj\Debug\net10.0\ref\JoleraOneDashboard.dll
