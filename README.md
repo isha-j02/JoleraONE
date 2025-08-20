@@ -38,9 +38,87 @@ Data: JSON (mock data), SQL Server (future integration)
 => Authentication (Login/Logout)  
 => Responsive design (desktop-first, tablet/mobile planned) 
 
-## 📍 Status 
-✅ UI Prototyping & Section Builds in Progress  
-🛠️ API integration and testing to follow  
-📄 Final usability documentation to be submitted on completion  
+## 📂 Folder Structure
+```
+JoleraONE/
+│── JoleraONE.sln                # Solution file
+│── JoleraONE.csproj             # Project definition
+│── Program.cs                   # Application entry point
+│── appsettings.json             # App configuration
+│
+├── Controllers/                  # Controllers for MVC routing
+├── Views/                        # Views (HTML/CSS-based)
+│   ├── Shared/                   # Layout, header, sidebar, footer
+│   ├── SupportIT/                # Support IT dashboards
+│   ├── StoreIT/                  # Store IT dashboards
+│   ├── SecureIT/                 # Secure IT dashboards
+│   └── ...                       # Other service modules
+│
+├── wwwroot/                      # Static assets
+│   ├── css/                      # Stylesheets
+│   ├── js/                       # JavaScript
+│   └── lib/                      # Libraries (Chart.js, etc.)
+│
+└── .git/                         # Git repository files
+```
+
+---
+
+## 🖥️ Installation & Setup
+
+### ✅ Prerequisites
+- Install **.NET 8 SDK** (or compatible version)  
+- Install **Visual Studio 2022 / VS Code**  
+- Install **Git**  
+
+### ▶️ Steps to Run
+1. Clone the repository [Optional]:  
+   ```bash
+   git clone <repo-url>
+   cd JoleraONE
+   ```
+
+2. Restore dependencies:  
+   ```bash
+   dotnet restore
+   ```
+
+3. Build the project:  
+   ```bash
+   dotnet build
+   ```
+
+4. Run the project:  
+   ```bash
+   dotnet run
+   ```
+
+5. Open in browser:  
+   ```
+   http://localhost:5000
+   ```
+
+---
+
+## 🚀 Usage
+- Sidebar navigation allows switching between service dashboards.  
+- Each service (SupportIT, StoreIT, SecureIT, etc.) includes metric panels, charts, and tables.  
+- Data is currently **static** (dummy data only).  
+
+---
+
+## 👨‍💻 Developer Notes
+- Modify **CSS** in `wwwroot/css/` for UI updates.  
+- Update/add **views** under `Views/` for new service modules.  
+- Add **charts** using Chart.js (place under `wwwroot/lib/`).  
+- To extend project with real backend:
+  - Add **Models** for database entities  
+  - Implement **Controllers** for CRUD operations  
+  - Connect to **SQL Server or MongoDB**  
+
+---
+
+## 📄 License
+This project is developed as part of a **Proof of Concept Internship Project** for Jolera.  
 
 
